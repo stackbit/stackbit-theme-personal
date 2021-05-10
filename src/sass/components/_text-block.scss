@@ -1,0 +1,39 @@
+/**
+ * Text Block
+ */
+.text-block {
+	p,
+	ul,
+	ol,
+	figure {
+		margin-bottom: 1.66667em;
+	}
+
+	iframe[src*="vimeo.com"],
+	iframe[src*="youtube.com"] {
+		display: block;
+		margin-bottom: 1.66667em;
+	}
+
+	blockquote {
+		font-size: 1.33333em;
+		line-height: 1.4;
+		margin: 1.66667em 0;
+	}
+
+	pre {
+		margin: 1.875em 0;
+	}
+
+	hr {
+		margin: 2.22222em 0;
+	}
+
+	blockquote,
+	pre,
+	hr {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}

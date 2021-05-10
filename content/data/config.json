@@ -1,0 +1,140 @@
+{
+    "title": "Stackbit Personal Theme",
+    "path_prefix": "/",
+    "layout_type": "boxed",
+    "style": "classic",
+    "palette": "red",
+    "mode": "light",
+    "base_font": "serif",
+    "header": {
+        "title": "Personal",
+        "logo": "images/logo.svg",
+        "logo_alt": "Personal logo",
+        "has_primary_nav": true,
+        "primary_nav_links": [
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "FAQ",
+                "url": "/faq",
+                "style": "link"
+            },
+            {
+                "label": "Contact me",
+                "url": "/contact",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": false
+    },
+    "footer": {
+        "logo": "images/logo.svg",
+        "logo_alt": "Personal logo",
+        "has_primary_nav": true,
+        "primary_nav_links": [
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "FAQ",
+                "url": "/faq",
+                "style": "link"
+            },
+            {
+                "label": "Contact me",
+                "url": "/contact",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": true,
+        "secondary_nav_links": [
+            {
+                "label": "Style Guide",
+                "url": "/style-guide",
+                "style": "link"
+            },
+            {
+                "label": "Terms & Conditions",
+                "url": "/terms-conditions",
+                "style": "link"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy-policy",
+                "style": "link"
+            }
+        ],
+        "has_tertiary_nav": false,
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "twitter",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "github",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "linkedin",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "YouTube",
+                "url": "https://www.youtube.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "youtube",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "Vimeo",
+                "url": "https://vimeo.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "vimeo",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://instagram.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "instagram",
+                "icon_position": "center",
+                "new_window": true
+            }
+        ],
+        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=personal&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+    },
+    "announcement": {
+        "has_anncmnt": true,
+        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
+        "anncmnt_align": "left",
+        "anncmnt_is_home_only": true,
+        "anncmnt_has_close": true,
+        "anncmnt_id": "new-features"
+    }
+}
